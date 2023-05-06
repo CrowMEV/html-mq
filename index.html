@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Noemi</title>
   </head>
   <body>
     <div class="popup">
-      <form action="" method="post" class="feedback">
+      <form action="#0" method="post" class="feedback">
         <h2 class="title title-section">ваш фидбэк</h2>
-        <a  class="popup__close" href="#0">
+        <button  class="popup__close">
           <span class="visually-hidden">Закрыть окно</span>
-        </a>
+        </button>
         <label class="feedback__select-group">
           <span class="form-hint">Как часто вы заходите на сайт?</span>
           <select class="feedback__select">
@@ -30,7 +30,8 @@
               class="visually-hidden approval__control"
               type="radio"
               name="approval"
-            />
+              checked
+            >
             <span class="approval-hint">Да</span>
           </label>
           <label>
@@ -38,7 +39,7 @@
               class="visually-hidden approval__control"
               type="radio"
               name="approval"
-            />
+            >
             <span class="approval-hint">Нет</span>
           </label>
         </div>
@@ -60,7 +61,7 @@
               src="./svg/noemi-logo.svg"
               alt=" noemi-logo"
               class="img-logo"
-            />
+            >
           </a>
           <nav class="header__nav">
             <svg
@@ -171,7 +172,7 @@
             src="https://netology-code.github.io/html-2-diploma/sources/images/last-post1.jpg"
             alt="безмятежная безмятежность"
             class="article__img"
-          />
+          >
           <div class="article__content">
             <header class="article__header">
               <ul class="tag-list article__tag-list">
@@ -201,7 +202,7 @@
             src="https://netology-code.github.io/html-2-diploma/sources/images/last-post2.jpg"
             alt="успешный успех"
             class="article__img"
-          />
+          >
           <div class="article__content">
             <header class="article__header">
               <ul class="tag-list article__tag-list">
@@ -231,7 +232,7 @@
             src="https://netology-code.github.io/html-2-diploma/sources/images/last-post3.jpg"
             alt="феминистический феминизм"
             class="article__img"
-          />
+          >
           <div class="article__content">
             <header class="article__header">
               <ul class="tag-list article__tag-list">
@@ -262,7 +263,7 @@
             src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg"
             alt="вкусная вкуснота питательная питательность"
             class="article__img"
-          />
+          >
           <div class="article__content">
             <header class="article__header">
               <ul class="tag-list article__tag-list">
@@ -292,7 +293,7 @@
             src="https://netology-code.github.io/html-2-diploma/sources/images/last-post5.jpg"
             alt="седалищное седалище"
             class="article__img"
-          />
+          >
           <div class="article__content">
             <header class="article__header">
               <ul class="tag-list article__tag-list">
@@ -330,7 +331,7 @@
               src="https://netology-code.github.io/html-2-diploma/sources/images/2.jpg"
               alt="человек идет по берегу моря"
               class="last-post__img"
-            />
+            >
             <div class="last-post__content">
               <time class="date" datetime="2019-06-14">14 июня 2019</time>
               <h3 class="last-post__title">
@@ -345,7 +346,7 @@
               src="https://netology-code.github.io/html-2-diploma/sources/images/151.jpg"
               alt="девушка занимается йогой"
               class="last-post__img"
-            />
+            >
             <div class="last-post__content">
               <time class="date" datetime="2019-06-14">14 июня 2019</time>
               <h3 class="last-post__title">
@@ -358,7 +359,7 @@
               src="https://netology-code.github.io/html-2-diploma/sources/images/45.jpg"
               alt="самое точное описаине картинки"
               class="last-post__img"
-            />
+            >
             <div class="last-post__content">
               <time class="date" datetime="2019-06-14">14 июня 2019</time>
               <h3 class="last-post__title">
@@ -373,7 +374,7 @@
               src="https://netology-code.github.io/html-2-diploma/sources/images/501.jpg"
               alt="на столе стоит еда"
               class="last-post__img"
-            />
+            >
             <div class="last-post__content">
               <time class="date" datetime="2019-06-14">14 июня 2019</time>
               <h3 class="last-post__title">
@@ -386,7 +387,7 @@
               src="https://netology-code.github.io/html-2-diploma/sources/images/7.jpg"
               alt="три девушки с длинными волосами"
               class="last-post__img"
-            />
+            >
             <div class="last-post__content">
               <time class="date" datetime="2019-06-14">14 июня 2019</time>
               <h3 class="last-post__title">
@@ -397,7 +398,7 @@
             </div>
           </div>
         </section>
-        <form action="" method="post" class="aside__search">
+        <form action="#0" method="post" class="aside__search">
           <label for="search" class="visually-hidden">Поиск</label>
           <input
             type="search"
@@ -405,13 +406,13 @@
             class="aside__search-field field"
             name="search"
             id="search"
-          />
+          >
           <button type="submit" class="aside__search-submit">
             <span class="visually-hidden">Найти</span>
           </button>
         </form>
         <h2 class="title">рассылка</h2>
-        <form action="" method="post" class="aside__email-form">
+        <form action="#0" method="post" class="aside__email-form">
           <label for="email" class="visually-hidden">Почта</label>
           <input
             type="email"
@@ -419,7 +420,7 @@
             id="email"
             placeholder="Ваш email-адрес"
             class="aside__email-field field"
-          />
+          >
           <button type="submit" class="btn-submit">подписаться</button>
         </form>
         <h2 class="title">теги</h2>
@@ -480,22 +481,22 @@
             <source
               media="(max-width: 767px)"
               srcset="./img/shop-item-mobile1.jpg"
-            />
+            >
             <source
               media="(max-width: 1199px)"
               srcset="./img/shop-item-tablet1.jpg"
-            />
+            >
             <img
               class="product__img"
               src="./img/shop-item-desk1.jpg"
               alt="мягкая безмятежность"
-            />
+            >
           </picture>
           <div class="product__body">
             <h3 class="product__title">подушки на диван</h3>
             <p class="product__content">
               Набор из двух подушек с модными принтами. Видео о создании
-              <a href="#0" class="product__content-link">здесь</a>.
+              <a href="#0" class="product__content-link link-underline">здесь</a>.
             </p>
             <footer class="product__footer">
               <div class="product__prices">
@@ -517,16 +518,16 @@
             <source
               media="(max-width: 767px)"
               srcset="./img/shop-item-mobile2.jpg"
-            />
+            >
             <source
               media="(max-width: 1199px)"
               srcset="./img/shop-item-tablet2.jpg"
-            />
+            >
             <img
               class="product__img"
               src="./img/shop-item-desk2.jpg"
               alt="босоногое детство"
-            />
+            >
           </picture>
           <div class="product__body">
             <h3 class="product__title">кукла «зайчик»</h3>
@@ -553,16 +554,16 @@
             <source
               media="(max-width: 767px)"
               srcset="./img/shop-item-mobile3.jpg"
-            />
+            >
             <source
               media="(max-width: 1199px)"
               srcset="./img/shop-item-tablet3.jpg"
-            />
+            >
             <img
               class="product__img"
               src="./img/shop-item-desk3.jpg"
               alt="гексограмма"
-            />
+            >
           </picture>
           <div class="product__body">
             <h3 class="product__title">шестиугольная рамка</h3>
